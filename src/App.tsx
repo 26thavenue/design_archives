@@ -1,4 +1,5 @@
 import './App.css'
+import Home from './pages/Home'
 
 function App() {
 
@@ -6,7 +7,7 @@ function App() {
   return (
     <>
       <div>
-        <p className='text-lg text-purple-500'>Hello</p>
+        <Home/>
       </div>
     </>
   )
